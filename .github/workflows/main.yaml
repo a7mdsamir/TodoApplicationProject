@@ -1,7 +1,7 @@
 name: Run Selenium Tests
 on:
   push:
-    branches: [ master ]
+    branches: [ main ]
 jobs:
   test:
     timeout-minutes: 60
